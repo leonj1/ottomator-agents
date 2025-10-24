@@ -1,0 +1,11 @@
+{
+    "name": "agentic-rag-kg",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "devcontainer",
+    "workspaceFolder": "/workspace/agentic-rag-knowledge-graph",
+    "forwardPorts": [8058, 5432, 7687],
+    "postCreateCommand": "pip install -r requirements.txt",
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+    }
+}
